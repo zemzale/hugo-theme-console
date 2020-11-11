@@ -32,13 +32,16 @@
 
 :root {
     --global-font-size: 16px;
-    --global-font-color: #444;
     --mono-font-stack: Roboto Mono, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
     --font-stack: Roboto Mono, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
     --global-line-height: 1.6em;
     --page-width: 70em;
     --display-h1-decoration: 1;
-    --code-bg-color: #fff;
+    --global-font-color: #fff;
+    --code-bg-color: #;
+    --font-color: #f1f1f1;
+    --primary-color: #11e6be;
+    --background-color: #121212;
 }
 
 @media only screen and (max-width: 850px) {
@@ -73,7 +76,7 @@
 body {
     font-family: var(--font-stack);
     font-size: var(--global-font-size);
-    background-color: #fff;
+    background-color: var(--background-color);
     margin-bottom: 75px;
 }
 
