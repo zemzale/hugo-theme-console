@@ -5,7 +5,7 @@ description = "A minimal, dark, responsive and light theme for Hugo inspired by 
 homepage = "https://github.com/zemzale/hugo-theme-console"
 tags = ["blog", "gallery", "portfolio", "console", "terminal", "clean", "personal", "minimal", "monotone", "simple", "technical", "responsive", "mobile", "minimalist", "retro", "animation"]
 features = ["disqus", "responsive", "google analytics"]
-min_version = "0.69.0"
+min_version = "0.81.0"
 
 [author]
     name = "Alberts Zemzale"
